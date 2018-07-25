@@ -20,4 +20,11 @@ function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+
+function getUserData() {
+	$json_source = file_get_contents('../data/user.json');
+	$array = json_decode($json_source);
+	echo "bonjour"." ".$array->{'name'};
+	// var_dump(json_decode($json_source));
+}
 ?>
