@@ -10,10 +10,14 @@ function getContent(){
 	if(!isset($_GET['page'])){
 		include __DIR__.'/../pages/home.php';
 	} else {
-		// le reste du code
+		$page = $_GET['page'];
+		include __DIR__ . '/../pages/'. $page . '.php';
 	}
 }
+
 
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
+
+?>
