@@ -24,7 +24,7 @@ function getPart($name){
 function getUserData() {
 	$json_source = file_get_contents('../data/user.json');
 	$array = json_decode($json_source);
-	echo "bonjour"." ".$array->{'name'};
+	echo "bonjour"." ".$array->{'first_name'}." ".$array->{'name'};
 	// var_dump(json_decode($json_source));
 }
 ?>
