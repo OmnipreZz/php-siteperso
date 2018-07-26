@@ -24,7 +24,18 @@ function getPart($name){
 function getUserData() {
 	$json_source = file_get_contents('../data/user.json');
 	$array = json_decode($json_source);
-	echo "bonjour"." ".$array->{'first_name'}." ".$array->{'name'};
+	echo "Bonjour"." ".$array->{'first_name'}." ".$array->{'name'}."<br>";
 	// var_dump(json_decode($json_source));
 }
+
+function getLastMessageData() {
+	$jsonSource = file_get_contents('../data/last_message.json');
+	$arrContact = json_decode($jsonSource);
+	echo "Bonjour". " ".$arrContact->{'first_name'}." ".$arrContact->{'name'}."<br>".
+	"Votre message:"."<br>".$arrContact->{'message'};
+}
+
+
+
+
 ?>
