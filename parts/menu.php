@@ -2,11 +2,11 @@
 
 <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
   <!-- <a class="navbar-brand" href="#">My Portfolio</a> -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-right">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+    <ul class="navbar-nav ml-right icoMenu">
       <li class="nav-item mr-3">
         <a class="ico" target="_blank" href="https://github.com/OmnipreZz" aria-label="GitHub">
           <i class="fab fa-github"></i>
@@ -28,7 +28,7 @@
         </a>
       </li>
     </ul>
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto menu">
       <li class="nav-item mr-4 mt-2">
         <a class="nav-link" href="./index.php">Accueil</a>
       </li>
@@ -39,5 +39,5 @@
         <a class="nav-link" href="./index.php?page=contact">Contact</a>
       </li>
     </ul>
-  </div>
+  <!-- </div> -->
 </nav>

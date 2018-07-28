@@ -86,3 +86,43 @@ body {
 	height: 100vh;
 	background-color: #9C27B0;
 }
+
+
+/* -------------------Media------------------ */
+@media (max-width: 1199px) {
+	
+	.titre {
+		margin-top: 40vh;
+		margin-left: 30vh;
+	}
+}
+
+@media (max-width: 991px) {
+	.titre {
+		margin-top: 40vh;
+		margin-left: 30vh;
+	}
+}
+
+@media (max-width: 767px) {
+    .titre {
+		margin-top: 40vh;
+		margin-left: 0;
+	}
+	.arrow {
+		display: none;
+	}
+	.homePage {
+		background: black;
+	}
+
+	.menu {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	.icoMenu {
+		display: none;
+	}
+}
