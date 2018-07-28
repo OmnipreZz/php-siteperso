@@ -1,9 +1,9 @@
-* {
-	/* box-sizing: border-box; */
+/* * {
+	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	/* font-size:1rem; */
-}
+	font-size:1rem;
+} */
 
 /* html {
 	font-size:62.5%;
@@ -12,4 +12,77 @@
 form {
 	margin: 0 auto;
 	border: 1px solid gray;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+/* -------------------navbar------------------ */
+.nav-link {
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	width: 80px;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: black;
+}
+
+.ico {
+	color: white;
+}
+
+.ico:hover {
+	color: #F6F25D;
+}
+
+
+/* -------------------homePage------------------ */
+.homePage {
+	height: 100vh;
+	background: url('images/DSC_0012.jpg') no-repeat center;
+	background-size: cover;
+	opacity: 0.8;
+	color: white;
+}
+
+.homePage h1 {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3em;
+}
+
+.homePage h2 {
+	font-family: 'Inconsolata', monospace;
+	text-decoration: underline;
+}
+
+.homePage i {
+	font-size: 3em;
+}
+
+.titre {
+	margin-top: 40vh;
+	margin-left: 40vh;
+}
+
+.arrow {
+	margin-top: 35vh;
+}
+
+.icoArrow {
+	color: white;
+}
+
+.icoArrow:hover {
+	color: #F6F25D;
+}
+
+
+/* -------------------Page------------------ */
+#start {
+	height: 100vh;
+	background-color: #9C27B0;
 }

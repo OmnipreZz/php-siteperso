@@ -18,3 +18,5 @@ getUserData();
 getLastMessageData();
 getPart('footer');
 
+?>
+
