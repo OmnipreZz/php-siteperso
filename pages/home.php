@@ -19,8 +19,17 @@
 </div>
 
 <div id="start" class="container-fluid">
-
-    
+    <div class="row menuCard">
+        <a href="#" class="col-3 card flex">
+            Site Web...
+        </a>
+        <a href="#" class="col-3 card flex flex1">
+            Apply...
+        </a>
+        <a href="#" class="col-3 card flex flex2">
+            <span>Design...</span>
+        </a>
+    </div>
 </div>
 
 
