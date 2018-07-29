@@ -67,11 +67,19 @@ body {
 
 .titre {
 	margin-top: 40vh;
-	margin-left: 40vh;
+	margin-left: 45vh;
 }
 
 .arrow {
 	margin-top: 35vh;
+}
+
+.arrow1 {
+	margin-top: -8vh;
+}
+
+.arrow1 i {
+	font-size: 3em;
 }
 
 .icoArrow {
@@ -101,9 +109,6 @@ body {
 	height: 40vh;
 	border: 1px solid white;
 	background: transparent;
-}
-
-.card {
 	color: white;
 	font-family: 'Inconsolata', monospace;
 	font-size: 2em;
@@ -138,6 +143,12 @@ body {
 }
 
 
+/* -------------------Page1------------------ */
+#next {
+	padding-top: 10vh;
+	height: 100vh;
+	background-color: #E91E63;
+}
 
 
 /* -------------------Media------------------ */
@@ -145,7 +156,7 @@ body {
 	
 	.titre {
 		margin-top: 40vh;
-		margin-left: 30vh;
+		margin-left: 40vh;
 	}
 }
 
@@ -154,6 +165,22 @@ body {
 		margin-top: 40vh;
 		margin-left: 30vh;
 	}
+
+	.homePage h1 {
+		font-size: 2em;
+	}
+
+	.menu {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
+
+	.icoMenu {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	}
 }
 
 @media (max-width: 767px) {
@@ -161,9 +188,15 @@ body {
 		margin-top: 40vh;
 		margin-left: 0;
 	}
+
 	.arrow {
 		display: none;
 	}
+
+	.arrow1 {
+		display: none;
+	}
+
 	.homePage {
 		background: black;
 	}
@@ -176,5 +209,30 @@ body {
 
 	.icoMenu {
 		display: none;
+	}
+
+	.card {
+		height: 15vh;
+		
+	}
+
+	.flex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-shadow: 2px 2px 3px #505050;
+    	border-left: 2px outset #505050;
+		border-top: 1px outset #505050;
+		background-color: white;
+		color: black;
+	}
+
+	.flex:hover {
+		background-color: #F6F25D;
+		color: black;
+	}
+
+	#start {
+		padding-top: 5vh;
 	}
 }
