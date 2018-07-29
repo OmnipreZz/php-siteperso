@@ -96,6 +96,18 @@ body {
 	padding-top: 10vh;
 	height: 100vh;
 	background-color: #9C27B0;
+	position: relative;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+#back {
+	height: 100vh;
+	width: 100%;
+	background: url('images/office-381228_1920.jpg') no-repeat center;
+	background-size: cover;
+	position: absolute;
+	z-index: 0;
 }
 
 .menuCard {
@@ -139,7 +151,7 @@ body {
 	box-shadow: 2px 2px 3px #505050;
     border-left: 2px outset #505050;
 	border-top: 1px outset #505050;
-	background-color: white;
+	background-color: #F6F25D;
 }
 
 
@@ -148,6 +160,18 @@ body {
 	padding-top: 10vh;
 	height: 100vh;
 	background-color: #E91E63;
+	position: relative;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+#back1 {
+	height: 100vh;
+	width: 100%;
+	background: url('images/bokeh-1033539_1920.jpg') no-repeat center;
+	background-size: cover;
+	position: absolute;
+	z-index: 0;
 }
 
 
@@ -208,6 +232,14 @@ body {
 	}
 
 	.icoMenu {
+		display: none;
+	}
+
+	#back {
+		display: none;
+	}
+
+	#back1 {
 		display: none;
 	}
 
